@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # assistente_compras_gemini
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Assistente_de_Compras
+>>>>>>> 4153f2e6fa143c7a376ca2590270cdcafe2f563f
