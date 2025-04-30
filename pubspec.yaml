@@ -1,0 +1,24 @@
+
+name: assistente_compras_gemini
+description: Um assistente de compras com integração a LLM para recomendações de produtos.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_generative_ai: ^0.4.7
+  http:  ^1.1.0
+  # Aqui você pode adicionar um cliente Gemini ou qualquer outro LLM
+  # Por exemplo, google_generative_ai quando disponível
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
