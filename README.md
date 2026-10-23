@@ -1,20 +1,31 @@
-<<<<<<< HEAD
-# assistente_compras_gemini
+# Assistente de Compras
 
-A new Flutter project.
+Aplicativo Flutter de assistência de compras com integração a modelos de linguagem para recomendações de produtos.
 
-## Getting Started
+## Tecnologias
 
-This project is a starting point for a Flutter application.
+- Flutter e Dart
+- Google Generative AI (`google_generative_ai`)
+- Cliente HTTP (`http`)
 
-A few resources to get you started if this is your first Flutter project:
+## Desenvolvimento
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Com o Flutter instalado, execute na raiz do projeto:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Assistente_de_Compras
->>>>>>> 4153f2e6fa143c7a376ca2590270cdcafe2f563f
+```bash
+flutter pub get
+flutter run
+```
+
+Consulte `pubspec.yaml` para as versões e restrições das dependências. A configuração de credenciais da integração deve ser verificada no código antes da execução.
+
+## Verificação
+
+```bash
+flutter analyze
+flutter test
+```
+
+## Organização
+
+Este repositório reúne o projeto `assistente_compras_gemini`. A documentação foi organizada em 23/10/2026; os comandos acima são instruções de desenvolvimento e não representam testes executados nesta revisão.
