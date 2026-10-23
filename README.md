@@ -29,3 +29,9 @@ flutter test
 ## Organização
 
 Este repositório reúne o projeto `assistente_compras_gemini`. A documentação foi organizada em 23/10/2026; os comandos acima são instruções de desenvolvimento e não representam testes executados nesta revisão.
+
+## Configuração da chave
+
+A chave não fica mais gravada no fonte. Para uso local, configure `GEMINI_API_KEY` com `--dart-define` na execução do Flutter, mantendo o valor fora do Git. Esse valor pode ser extraído de um aplicativo compilado; para distribuição pública, use uma API de backend que guarde a credencial.
+
+Uma chave estava presente no histórico anterior. Removê-la do fonte atual não revoga a credencial: o titular precisa revogá-la no provedor antes de considerar a exposição resolvida.

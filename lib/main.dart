@@ -26,8 +26,13 @@ class _HomePageState extends State<HomePage> {
   String _recomendacao = "";
 
   Future<void> _consultarIA() async {
-    const apiKey =
-        'AIzaSyCg9cbCQB1A8sWkYKwu8VXd8-RdcEKJlWw'; // Substitua pela sua chave real
+    const apiKey = String.fromEnvironment('GEMINI_API_KEY');
+    if (apiKey.isEmpty) {
+      setState(() {
+        _recomendacao = 'Configure GEMINI_API_KEY antes de consultar a IA.';
+      });
+      return;
+    }
 
     final model = GenerativeModel(
       model: 'gemini-pro',
